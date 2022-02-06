@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+        <meta charset="utf-8">
+    </head>
+    <body align="center">
+        <h1>Inscription en licence</h1>
+        <fieldset>
+            <legend>Informations personelles</legend>
+            Votre nom:<input type="text" name="nom" size=15 ><br/><br/>
+            Votre prénom:<input type="text" name="prénom" size=15 ><br/><br/>
+            Votre age:<input type="number"  ><br/><br/>
+            Votre adresse:<textarea  name="comment" rows=5 cols=40 ></textarea><br/><br/>
+            Mot de passe:<input type="password" name="pwd" id="pwd" required ><br/><br/>
+            Retapez votre mot de passe:<input type="password" name="pwd" id="pwd" required  ><br/><br/>
+        </fieldset>
+        
+        <fieldset>
+            <legend> Gestoin des groupes et des options </legend>
+            Votre groupe: <input type="radio" name="groupe" id="g1" value="g1" checked>Groupe 1
+                          <input type="radio" name="groupe" id="g2" value="g2">Groupe 2
+                          <input type="radio" name="groupe" id="g3" value="g3">Groupe 3<br/><br/>
+             Votre numéo de carte étudiant:<input type="number"  ><br/><br/>
+             Choisissez les options que vous désirez: <select name="options">
+                 <option value="id1">J2ee
+                 <option value="id2">Android
+                 <option value="id3">.NET
+                 <option value="id4">HTML5
+                 <option value="id5">Flex
+                 </select>
+         </fieldset>
+        
+         <fieldset>
+             <legend>Informations supplémentaires</legend>
+             Votre adresse email<input type="text" name="adresse"><br/><br/>
+             Votre site<input type="text" name="site"><br/><br/>
+             Votre date de naissance<input type="date" name="naissance"><br/><br/>
+         </fieldset>
+         <input type="submit" value="valider">
+         <input type="reset" value="réinitialiser">
+    </body>
+</html>
